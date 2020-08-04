@@ -1,0 +1,36 @@
+<html>
+<head>
+  <title>Weather APP</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+  <!-- Optional theme -->
+  <script src="weather.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+  </body>
+</head>
+<body>
+  <center>
+  <div class="jumbotron" style="margin-bottom:0px; color:white; background-color:#4aa1f3;">
+  <h1 class="text-center" style="font-size:50px; font-weight:400px;">Weather app</h1>
+  </div>
+  <div class="container">
+    <div class="row">
+      <h3 class="text-center text-primary">Enter city name</h3>
+      <span id="error"></span>
+    </div>
+    <div class="row form-group form-inline" style="margin-top:20px;">
+      <input type="text" name="city" id="city" class="form-control " placeholder="City name">
+      <button id="submitWeather" class="btn btn-primary">Search City</button>
+    </div>
+    <div id="show"></div>
+
+</div>
+
+</center>
+
+</html>
